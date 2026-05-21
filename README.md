@@ -49,7 +49,7 @@
 
 ```bash
 # 1. Клонируем репозиторий
-git clone https://github.com/YOUR_USERNAME/network-ai.git
+git clone https://github.com/EgorkaSav/network-ai.git
 cd network-ai
 
 # 2. Создаём виртуальное окружение
