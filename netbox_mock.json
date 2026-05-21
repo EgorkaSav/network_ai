@@ -1,0 +1,27 @@
+{
+  "sites": [
+    {
+      "id": 1,
+      "name": "Тестовая-1",
+      "region": "Московская область",
+      "city": "Москва",
+      "address": "ул. Тестовая, д. 1"
+    }
+  ],
+  "devices": [
+    {
+      "name": "R1",
+      "role": "router",
+      "platform": "cisco_ios",
+      "mgmt_ip": "192.168.0.101",
+      "site_id": 1
+    },
+    {
+      "name": "R2",
+      "role": "router",
+      "platform": "cisco_ios",
+      "mgmt_ip": "10.0.0.2",
+      "site_id": 1
+    }
+  ]
+}

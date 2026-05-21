@@ -1,0 +1,29 @@
+{
+  "показать dot1x на тестовой 1": {
+    "query": "показать dot1x на Тестовой 1",
+    "device": "R1",
+    "commands": [
+      "show dot1x"
+    ],
+    "description": "покажи dot1x",
+    "times_used": 1
+  },
+  "показать isis топологию на всех маршрутизаторах в москве": {
+    "query": "показать isis топологию на всех маршрутизаторах в Москве",
+    "device": "R1",
+    "commands": [
+      "show isis topology"
+    ],
+    "description": "",
+    "times_used": 1
+  },
+  "показать здоровье роутеров на тестовой 1 в москве": {
+    "query": "показать здоровье роутеров на Тестовой 1 в Москве",
+    "device": "R1",
+    "commands": [
+      "show environment"
+    ],
+    "description": "",
+    "times_used": 1
+  }
+}

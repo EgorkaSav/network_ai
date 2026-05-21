@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+collected_configs/
+chroma_db/
+feedback_log.jsonl
+rag_update.log
+.env

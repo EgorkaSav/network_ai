@@ -1,0 +1,443 @@
+{
+  "show": [
+    {
+      "intent": "показать маршруты ospf таблица routing",
+      "commands": [
+        "show ip route ospf"
+      ]
+    },
+    {
+      "intent": "показать все маршруты таблицу маршрутизации",
+      "commands": [
+        "show ip route"
+      ]
+    },
+    {
+      "intent": "показать интерфейсы ip interface brief",
+      "commands": [
+        "show ip interface brief"
+      ]
+    },
+    {
+      "intent": "показать ospf соседей neighbor",
+      "commands": [
+        "show ip ospf neighbor"
+      ]
+    },
+    {
+      "intent": "показать ospf детально database",
+      "commands": [
+        "show ip ospf neighbor detail"
+      ]
+    },
+    {
+      "intent": "показать acl access-list",
+      "commands": [
+        "show ip access-lists"
+      ]
+    },
+    {
+      "intent": "показать nat трансляции",
+      "commands": [
+        "show ip nat translations"
+      ]
+    },
+    {
+      "intent": "показать nat статистику",
+      "commands": [
+        "show ip nat statistics"
+      ]
+    },
+    {
+      "intent": "показать running config конфигурацию",
+      "commands": [
+        "show running-config"
+      ]
+    },
+    {
+      "intent": "показать startup config",
+      "commands": [
+        "show startup-config"
+      ]
+    },
+    {
+      "intent": "показать версию version",
+      "commands": [
+        "show version"
+      ]
+    },
+    {
+      "intent": "показать vlan",
+      "commands": [
+        "show vlan brief"
+      ]
+    },
+    {
+      "intent": "показать mac таблицу",
+      "commands": [
+        "show mac address-table"
+      ]
+    },
+    {
+      "intent": "показать spanning tree",
+      "commands": [
+        "show spanning-tree"
+      ]
+    },
+    {
+      "intent": "показать ssh",
+      "commands": [
+        "show ip ssh"
+      ]
+    },
+    {
+      "intent": "показать dhcp привязки binding",
+      "commands": [
+        "show ip dhcp binding"
+      ]
+    },
+    {
+      "intent": "показать dhcp пул pool",
+      "commands": [
+        "show ip dhcp pool"
+      ]
+    },
+    {
+      "intent": "показать bgp таблицу",
+      "commands": [
+        "show ip bgp"
+      ]
+    },
+    {
+      "intent": "показать bgp соседей neighbor",
+      "commands": [
+        "show ip bgp neighbors"
+      ]
+    },
+    {
+      "intent": "показать eigrp соседей neighbor",
+      "commands": [
+        "show ip eigrp neighbors"
+      ]
+    },
+    {
+      "intent": "показать eigrp таблицу топологии",
+      "commands": [
+        "show ip eigrp topology"
+      ]
+    },
+    {
+      "intent": "показать cpu загрузку процессор",
+      "commands": [
+        "show processes cpu sorted"
+      ]
+    },
+    {
+      "intent": "показать память memory",
+      "commands": [
+        "show processes memory sorted"
+      ]
+    },
+    {
+      "intent": "показать логи сообщения logging",
+      "commands": [
+        "show logging | last 50"
+      ]
+    },
+    {
+      "intent": "показать интерфейс детально статистику",
+      "commands": [
+        "show interfaces {iface}"
+      ]
+    },
+    {
+      "intent": "показать cdp соседей",
+      "commands": [
+        "show cdp neighbors detail"
+      ]
+    },
+    {
+      "intent": "показать ntp статус",
+      "commands": [
+        "show ntp status"
+      ]
+    },
+    {
+      "intent": "показать snmp",
+      "commands": [
+        "show snmp"
+      ]
+    },
+    {
+      "intent": "показать пользователей line vty",
+      "commands": [
+        "show users"
+      ]
+    },
+    {
+      "intent": "показать криптоключи rsa",
+      "commands": [
+        "show crypto key mypubkey rsa"
+      ]
+    },
+    {
+      "intent": "проверить пинг ping доступность",
+      "commands": [
+        "ping {host} repeat 10"
+      ]
+    },
+    {
+      "intent": "трассировка traceroute маршрут",
+      "commands": [
+        "traceroute {host}"
+      ]
+    },
+    {
+      "intent": "показать cef таблица forwarding",
+      "commands": [
+        "show ip cef"
+      ]
+    },
+    {
+      "intent": "показать cef детально адрес prefix",
+      "commands": [
+        "show ip cef detail"
+      ]
+    },
+    {
+      "intent": "показать cef интерфейс",
+      "commands": [
+        "show ip cef {iface}"
+      ]
+    },
+    {
+      "intent": "показать arp таблица",
+      "commands": [
+        "show ip arp"
+      ]
+    },
+    {
+      "intent": "показать crypto ipsec sa туннель vpn",
+      "commands": [
+        "show crypto ipsec sa"
+      ]
+    },
+    {
+      "intent": "показать crypto isakmp sa",
+      "commands": [
+        "show crypto isakmp sa"
+      ]
+    },
+    {
+      "intent": "показать mtu интерфейс",
+      "commands": [
+        "show interfaces {iface} | include MTU"
+      ]
+    },
+    {
+      "intent": "показать счётчики ошибки интерфейс",
+      "commands": [
+        "show interfaces {iface} | include error"
+      ]
+    },
+    {
+      "intent": "показать qos политика",
+      "commands": [
+        "show policy-map interface {iface}"
+      ]
+    },
+    {
+      "intent": "показать bgp summary сводка",
+      "commands": [
+        "show ip bgp summary"
+      ]
+    },
+    {
+      "intent": "показать prefix-list",
+      "commands": [
+        "show ip prefix-list"
+      ]
+    },
+    {
+      "intent": "показать route-map",
+      "commands": [
+        "show route-map"
+      ]
+    },
+    {
+      "intent": "показать track объекты",
+      "commands": [
+        "show track"
+      ]
+    },
+    {
+      "intent": "показать sla статистика",
+      "commands": [
+        "show ip sla statistics"
+      ]
+    }
+  ],
+  "configure": [
+    {
+      "intent": "добавить description описание на интерфейс",
+      "template": [
+        "interface {iface}",
+        "description {value}"
+      ]
+    },
+    {
+      "intent": "настроить ip адрес на интерфейсе",
+      "template": [
+        "interface {iface}",
+        "ip address {ip} {mask}",
+        "no shutdown"
+      ]
+    },
+    {
+      "intent": "no shutdown включить поднять интерфейс",
+      "template": [
+        "interface {iface}",
+        "no shutdown"
+      ]
+    },
+    {
+      "intent": "shutdown выключить интерфейс",
+      "template": [
+        "interface {iface}",
+        "shutdown"
+      ]
+    },
+    {
+      "intent": "добавить хост в acl access-list разрешить permit",
+      "template": [
+        "ip access-list extended {acl_name}",
+        "permit ip host {host} any"
+      ]
+    },
+    {
+      "intent": "добавить сеть в acl access-list разрешить permit",
+      "template": [
+        "ip access-list extended {acl_name}",
+        "permit ip {network} {wildcard} any"
+      ]
+    },
+    {
+      "intent": "добавить хост в acl access-list запретить deny",
+      "template": [
+        "ip access-list extended {acl_name}",
+        "deny ip host {host} any"
+      ]
+    },
+    {
+      "intent": "добавить хост в vty acl access-class разрешить",
+      "template": [
+        "ip access-list standard VTY-ACCESS",
+        "permit {host}",
+        "line vty 0 4",
+        "access-class VTY-ACCESS in"
+      ]
+    },
+    {
+      "intent": "удалить хост из acl access-list",
+      "template": [
+        "ip access-list extended {acl_name}",
+        "no permit ip host {host} any"
+      ]
+    },
+    {
+      "intent": "добавить статический маршрут route",
+      "template": [
+        "ip route {network} {mask} {gateway}"
+      ]
+    },
+    {
+      "intent": "удалить статический маршрут route",
+      "template": [
+        "no ip route {network} {mask} {gateway}"
+      ]
+    },
+    {
+      "intent": "добавить vlan коммутатор",
+      "template": [
+        "vlan {vlan_id}",
+        "name {vlan_name}"
+      ]
+    },
+    {
+      "intent": "назначить vlan на порт access",
+      "template": [
+        "interface {iface}",
+        "switchport mode access",
+        "switchport access vlan {vlan_id}"
+      ]
+    },
+    {
+      "intent": "настроить trunk порт vlan",
+      "template": [
+        "interface {iface}",
+        "switchport mode trunk",
+        "switchport trunk allowed vlan {vlan_id}"
+      ]
+    },
+    {
+      "intent": "добавить loopback интерфейс",
+      "template": [
+        "interface Loopback{id}",
+        "ip address {ip} 255.255.255.255",
+        "no shutdown"
+      ]
+    },
+    {
+      "intent": "настроить ospf добавить сеть",
+      "template": [
+        "router ospf 1",
+        "network {network} {wildcard} area {area}"
+      ]
+    },
+    {
+      "intent": "настроить ntp сервер",
+      "template": [
+        "ntp server {host}"
+      ]
+    },
+    {
+      "intent": "добавить snmp community",
+      "template": [
+        "snmp-server community {community} RO"
+      ]
+    },
+    {
+      "intent": "настроить banner motd",
+      "template": [
+        "banner motd # {text} #"
+      ]
+    },
+    {
+      "intent": "сохранить конфигурацию write memory",
+      "template": [
+        "write memory"
+      ]
+    },
+    {
+      "intent": "добавить пользователя username",
+      "template": [
+        "username {username} privilege 15 secret {password}"
+      ]
+    },
+    {
+      "intent": "настроить dhcp пул pool",
+      "template": [
+        "ip dhcp pool {pool_name}",
+        "network {network} {mask}",
+        "default-router {gateway}",
+        "dns-server {dns}"
+      ]
+    },
+    {
+      "intent": "исключить адреса dhcp excluded",
+      "template": [
+        "ip dhcp excluded-address {start} {end}"
+      ]
+    }
+  ]
+}

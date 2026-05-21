@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Покажи только ospf маршруты на R1",
+    "json": {"action": "show", "device": "R1", "commands": ["show ip route ospf"]}
+  },
+  {
+    "question": "Покажи ospf соседей на R2",
+    "json": {"action": "show", "device": "R2", "commands": ["show ip ospf neighbor"]}
+  },
+  {
+    "question": "Какие ACL на R1",
+    "json": {"action": "show", "device": "R1", "commands": ["show ip access-lists"]}
+  },
+  {
+    "question": "Покажи NAT трансляции на R1",
+    "json": {"action": "show", "device": "R1", "commands": ["show ip nat translations"]}
+  },
+  {
+    "question": "Добавь description UPLINK на Fa0/0 R1",
+    "json": {"action": "configure", "device": "R1", "commands": ["interface FastEthernet0/0", "description UPLINK"]}
+  },
+  {
+    "question": "Покажи mac таблицу на SW1",
+    "json": {"action": "show", "device": "SW1", "commands": ["show mac address-table"]}
+  },
+  {
+    "question": "Покажи интерфейсы на Eltex MES2324",
+    "json": {"action": "show", "device": "MES1", "commands": ["show interfaces status"]}
+  },
+  {
+    "question": "Добавь vlan 10 на Eltex",
+    "json": {"action": "configure", "device": "MES1", "commands": ["vlan database", "vlan 10", "exit"]}
+  }
+]
