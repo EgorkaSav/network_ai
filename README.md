@@ -65,30 +65,6 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull qwen2.5:7b
 ```
 
-### Настройка SSH для старых Cisco IOS
-
-Современный OpenSSH 9.x несовместим со старыми версиями Cisco SSH
-из-за расширений `ext-info-c` и `kex-strict`. Добавьте в `~/.ssh/config`:
-
-```
-Host 192.168.*.*
-    KexAlgorithms diffie-hellman-group1-sha1
-    HostKeyAlgorithms ssh-rsa
-    PubkeyAcceptedAlgorithms +ssh-rsa
-    Ciphers aes128-cbc,3des-cbc,aes192-cbc,aes256-cbc
-    MACs hmac-sha1,hmac-md5
-    StrictHostKeyChecking no
-    UserKnownHostsFile /dev/null
-
-Host 10.*.*.*
-    KexAlgorithms diffie-hellman-group1-sha1
-    HostKeyAlgorithms ssh-rsa
-    PubkeyAcceptedAlgorithms +ssh-rsa
-    Ciphers aes128-cbc,3des-cbc,aes192-cbc,aes256-cbc
-    MACs hmac-sha1,hmac-md5
-    StrictHostKeyChecking no
-    UserKnownHostsFile /dev/null
-```
 
 > **Важно:** Агент использует Netmiko/Paramiko напрямую и не зависит
 > от системного SSH. Конфиг выше нужен только для ручного тестирования.
