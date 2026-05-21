@@ -393,7 +393,7 @@ devices = [
 
 ---
 
-## Roadmap
+## Что дальше
 
 - [ ] Web UI (FastAPI + простой фронт)
 - [ ] Поддержка Eltex MES / ESR
